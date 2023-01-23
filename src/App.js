@@ -90,7 +90,7 @@ const seleccionarFramework=(framework, caso)=>{
     peticionGet();
   },[])
   return (
-    <div className='container-fluid table-responsive' style={{textAlign: 'center',
+    <div className='table-responsive' style={{textAlign: 'center',
        boxShadow: '0 0 1rem #00000080 inset', margin: '2rem'
     }}>
     <br/>
